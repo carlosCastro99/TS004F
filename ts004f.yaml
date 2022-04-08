@@ -73,9 +73,9 @@ action:
   - conditions: '{{ command == ''step'' }}'
     sequence:
     - choose:
-      - conditions: '{{ args == [ 0, 51, 10, null, null] }}'
+      - conditions: '{{ args == [ 0, 51, 10 ] }}'
         sequence: !input 'button_three_short_press'
-      - conditions: '{{ args == [ 1, 51, 10, null, null] }}'
+      - conditions: '{{ args == [ 1, 51, 10 ] }}'
         sequence: !input 'button_four_short_press'
   - conditions: '{{ command == ''move'' }}'
     sequence:
