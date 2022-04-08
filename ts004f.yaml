@@ -1,5 +1,5 @@
 blueprint:
-  name: ZHA - Tuya 4-Button Dimmer Switch - mod 
+  name: ZHA - Tuya 4-Button Dimmer Switch - mod1
   description: Automate your Tuya 4-Button Dimmer using ZHA events.
   domain: automation
   input:
